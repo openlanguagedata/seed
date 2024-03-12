@@ -16,48 +16,49 @@ Fixes and new language contributions are most welcome. Please see the [Contribut
 
 ## Language coverage
 
-| Language                       | Code       |
-|--------------------------------|------------|
-| Acehnese (Arabic script)       | `ace_Arab` |
-| Acehnese (Latin script)        | `ace_Latn` |
-| Moroccan Arabic                | `ary_Arab` |
-| Egyptian Arabic                | `arz_Arab` |
-| Bambara                        | `bam_Latn` |
-| Balinese                       | `ban_Latn` |
-| Bhojpuri                       | `bho_Deva` |
-| Banjar (Arabic script)         | `bjn_Arab` |
-| Banjar (Latin script)          | `bjn_Latn` |
-| Buginese                       | `bug_Latn` |
-| Crimean Tatar                  | `crh_Latn` |
-| Southwestern Dinka             | `dik_Latn` |
-| Dzongkha                       | `dzo_Tibt` |
-| Friulian                       | `fur_Latn` |
-| Nigerian Fulfulde              | `fuv_Latn` |
-| Guarani                        | `grn_Latn` |
-| Chhattisgarhi                  | `hne_Deva` |
-| Kashmiri (Arabic script)       | `kas_Arab` |
-| Kashmiri (Devanagari script)   | `kas_Deva` |
-| Central Kanuri (Arabic script) | `knc_Arab` |
-| Central Kanuri (Latin script)  | `knc_Latn` |
-| Ligurian                       | `lij_Latn` |
-| Limburgish                     | `lim_Latn` |
-| Lombard                        | `lmo_Latn` |
-| Latgalian                      | `ltg_Latn` |
-| Magahi                         | `mag_Deva` |
-| Meitei (Bengali script)        | `mni_Beng` |
-| Maori                          | `mri_Latn` |
-| Nko                            | `nqo_Nkoo` |
-| Nuer                           | `nus_Latn` |
-| Dari                           | `prs_Arab` |
-| Southern Pashto                | `pbt_Arab` |
-| Sicilian                       | `scn_Latn` |
-| Shan                           | `shn_Mymr` |
-| Sardinian                      | `srd_Latn` |
-| Silesian                       | `szl_Latn` |
-| Tamasheq (Latin script)        | `taq_Latn` |
-| Tamasheq (Tifinagh script)     | `taq_Tfng` |
-| Venetian                       | `vec_Latn` |
-| Standard Moroccan Tamazight    | `zgh_Tfng` |
+|    Code    |  Variety   |               Name                |                           Notes                            |
+|------------|------------|-----------------------------------|------------------------------------------------------------|
+| `ace_Arab` | `achi1257` |      Acehnese (Arabic script)     |                                                            |
+| `ace_Latn` | `achi1257` |      Acehnese (Latin script)      |                                                            |
+| `ary_Arab` | `moro1292` |          Moroccan Arabic          |                                                            |
+| `arz_Arab` | `egyp1253` |          Egyptian Arabic          |                                                            |
+| `bam_Latn` | `bamb1269` |              Bambara              |                                                            |
+| `ban_Latn` | `bali1278` |              Balinese             |                                                            |
+| `bho_Deva` | `bhoj1244` |              Bhojpuri             |                                                            |
+| `bjn_Arab` | `banj1239` |        Banjar (Jawi script)       |                                                            |
+| `bjn_Latn` | `banj1239` |       Banjar (Latin script)       |                                                            |
+| `bug_Latn` | `bugi1244` |              Buginese             |                                                            |
+| `crh_Latn` | `crim1257` |           Crimean Tatar           |                                                            |
+| `dik_Latn` | `sout2832` |         Southwestern Dinka        |                                                            |
+| `dzo_Tibt` | `dzon1239` |              Dzongkha             |                                                            |
+| `eng_Latn` | `stan1293` |              English              |                                                            |
+| `fur_Latn` | `east2271` |              Friulian             |                                                            |
+| `fuv_Latn` | `nige1253` |         Nigerian Fulfulde         |                                                            |
+| `gug_Latn` | `para1311` |         Paraguayan Guaraní        |                                                            |
+| `hne_Deva` | `chha1249` |           Chhattisgarhi           |                                                            |
+| `kas_Arab` | `kash1277` |      Kashmiri (Arabic script)     |                                                            |
+| `kas_Deva` | `kash1277` |    Kashmiri (Devanagari script)   |                                                            |
+| `knc_Arab` | `cent2050` |   Central Kanuri (Arabic script)  |                                                            |
+| `knc_Latn` | `cent2050` |   Central Kanuri (Latin script)   |                                                            |
+| `lij_Latn` | `geno1240` |         Ligurian (Genoese)        |                                                            |
+| `lim_Latn` | `limb1263` |             Limburgish            |                                                            |
+| `lmo_Latn` | `lomb1257` |              Lombard              | [[1]](https://github.com/openlanguagedata/flores/issues/5) |
+| `ltg_Latn` | `east2282` |             Latgalian             |                                                            |
+| `mag_Deva` | `maga1260` |               Magahi              |                                                            |
+| `mni_Beng` | `mani1292` | Meitei (Manipuri, Bengali script) |                                                            |
+| `mri_Latn` | `maor1246` |               Maori               |                                                            |
+| `nqo_Nkoo` | `nkoa1234` |                Nko                |                                                            |
+| `nus_Latn` | `nuer1246` |                Nuer               |                                                            |
+| `pbt_Arab` | `sout2649` |          Southern Pashto          |                                                            |
+| `prs_Arab` | `dari1249` |                Dari               |                                                            |
+| `scn_Latn` | `sici1248` |              Sicilian             |                                                            |
+| `shn_Mymr` | `shan1277` |                Shan               |                                                            |
+| `srd_Latn` | `sard1257` |             Sardinian             | [[1]](https://github.com/openlanguagedata/flores/issues/6) |
+| `szl_Latn` | `sile1253` |              Silesian             |                                                            |
+| `taq_Latn` | `tama1365` |      Tamasheq (Latin script)      |                                                            |
+| `taq_Tfng` | `tama1365` |     Tamasheq (Tifinagh script)    |                                                            |
+| `vec_Latn` | `vene1259` |              Venetian             |                                                            |
+| `zgh_Tfng` | `stan1324` |    Standard Moroccan Tamazight    |                                                            |
 
 ## Citation
 

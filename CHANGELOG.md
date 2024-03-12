@@ -21,6 +21,7 @@ In particular:
 - Data was NFC normalised.
 - Updated `lij_Latn` after additional quality assessment. Data has undergone minor spelling and syntactic fixes.
 - Relabeled `tzm_Tfng` to `zgh_Tfng` after additional quality assessment revealed the data was in Standard Moroccan Tamazight. Many thanks to @MedAymenF for pointing out the issues with the original NLLB-Seed data.
+- Relabeled `grn_Latn` macrolanguage code to the correct code `gug_Latn`.
 
 ## [1.0] - 2022-07-11
 

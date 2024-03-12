@@ -1,14 +1,14 @@
-# Data card
+# Dataset card
 
-## Data description
+## Description
 
-Seed data in Moroccan Arabic
+Seed data in Standard Moroccan Tamazight
 
-## Data license
+## License
 
 CC-BY-SA-4.0
 
-## Data attribution
+## Attribution
 
 ```bibtex
 @inproceedings{seed-23,
@@ -23,29 +23,18 @@ CC-BY-SA-4.0
 }
 ```
 
-## Language name
-
-العربية المغربية الدارجة
-
-## Language name in English
-
-Moroccan Arabic, Darija
-
 ## Language codes
 
-* ISO 639-3: ary
-* Glottocode: moro1292
-
-## Script
-
-* ISO 15924: Arab
-
-## Dialectal and orthographic information
+* ISO 639-3: zgh
+* ISO 15924: Tfng
+* Glottocode: stan1324
 
 ## Additional language information
 
-## Translation workflow
+Reference dictionary: IRCAM’s [Dictionnaire Général de la Langue Amazighe Informatisé](https://tal.ircam.ma/dglai/lexieam.php).
 
-An initial version of this data was was released as part of the NLLB-Seed dataset. It was retranslated after community feedback and additional quality assessment revealed the original data was too close to Modern Standard Arabic. Please refer to the paper for further information.
+## Workflow
+
+This data was released as part of the NLLB-Seed dataset, where it was incorrectly labeled `tzm_Tfng`. It was relabeled as `zgh_Tfng` after community feedback and additional quality assessment. Please refer to the paper for further information.
 
 ## Additional guidelines
