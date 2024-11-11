@@ -1,5 +1,9 @@
 # Seed Machine Translation Data
 
+**NOTE**: _This repository is no longer supported or maintained by by OLDI, the [Open Language Data Initiative](https://oldi.org). Please visit the [FLORES+ HuggingFace repo](https://huggingface.co/datasets/openlanguagedata/oldi_seed) to obtain the most recent version of this dataset._
+
+---
+
 This repository hosts the open source seed dataset described in the paper [Small Data, Big Impact: Leveraging Minimal Data for Effective Machine Translation](https://aclanthology.org/2023.acl-long.154). The data, which is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), is currently being managed by OLDI, the [Open Language Data Initiative](https://oldi.org).
 
 ## Data
@@ -8,7 +12,9 @@ The parallel corpus currently contains 6,193 sentences sampled from English Wiki
 
 ## Download the dataset
 
-The dataset is available under [`seed/`](seed/).
+**NOTE**: _Downloadable data has been removed as the dataset is now archived. Please visit the Hugging Face repo to access the dataset._
+
+~~The dataset is available under [`seed/`](seed/).~~
 
 ## Contributing
 
